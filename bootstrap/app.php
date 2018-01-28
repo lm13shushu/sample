@@ -1,5 +1,5 @@
 <?php
-
+require __DIR__.'/helpers.php';
 /*
 |--------------------------------------------------------------------------
 | Create The Application
@@ -51,6 +51,6 @@ $app->singleton(
 | from the actual running of the application and sending responses.
 |
 */
-require __DIR__.'/helpers.php';
+
 
 return $app;
