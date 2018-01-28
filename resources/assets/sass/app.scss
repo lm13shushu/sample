@@ -101,7 +101,7 @@ footer {
   }
 
   .slogon {
-    font-size: 13px;
+    font-size: 10px;
     font-weight: bold;
   }
 }
@@ -144,5 +144,21 @@ section.user_info {
   float: left;
   margin-right: 10px;
   max-width: 50px;
-  border-radius: 50%;
+  border-radius: 80%;
+}
+
+/* forms */
+
+input, textarea, select, .uneditable-input {
+  border: 1px solid #bbb;
+  margin-bottom: 15px;
+  width:300px;
+}
+
+input {
+  height: auto !important;
+}
+
+.panel {
+  margin-top: 50px;
 }

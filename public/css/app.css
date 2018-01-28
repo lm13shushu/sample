@@ -8454,7 +8454,7 @@ footer img.brand-icon {
 }
 
 footer .slogon {
-  font-size: 13px;
+  font-size: 10px;
   font-weight: bold;
 }
 
@@ -8488,7 +8488,7 @@ section.user_info .gravatar {
 }
 
 section.user_info h1 {
-  font-size: 3em;
+  font-size: 1.4em;
   letter-spacing: -1px;
   margin-bottom: 3px;
   margin-top: 15px;
@@ -8498,6 +8498,25 @@ section.user_info h1 {
   float: left;
   margin-right: 10px;
   max-width: 50px;
-  border-radius: 50%;
+  border-radius: 80%;
+}
+
+/* forms */
+
+input,
+textarea,
+select,
+.uneditable-input {
+  border: 1px solid #bbb;
+  margin-bottom: 15px;
+  width: 300px;
+}
+
+input {
+  height: auto !important;
+}
+
+.panel {
+  margin-top: 50px;
 }
 
