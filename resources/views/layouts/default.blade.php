@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>@yield('title','Sample')-Laravel</title>
 	<link rel="stylesheet" href="/css/app.css">
+	 <script src="/js/app.js"></script>
 </head>
 <body>
 	@include('layouts._header');
