@@ -70,6 +70,8 @@ class UsersController extends Controller
             'name' => 'required|max:50',
             'password' => 'nullable|confirmed|min:6'
         ]);
+		//authorize 方法接收两个参数，第一个为授权策略的名称，第二个为进行授权验证的数据
+        $this->authorize('update', $user);
         $data = [];
         $data['name'] = $request->name;
         if ($request->password) {
