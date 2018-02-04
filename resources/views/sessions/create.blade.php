@@ -2,7 +2,7 @@
 @section('title', '登录')
 
 @section('content')
-<div class="col-md-offset-2 col-md-8">
+<div class="col-md-offset-3 col-md-6">
   <div class="panel panel-default">
     <div class="panel-heading">
       <h5>登录</h5>
@@ -23,9 +23,10 @@
             <input type="password" name="password" class="form-control" value="{{ old('password') }}">
           </div>
           <div class="checkbox">
-            <label><input type="checkbox" name="remember" >记住我</label>
+          	<input type="checkbox" name="remember" id="remember_me">记住我
           </div>
 
+          <br>
           <button type="submit" class="btn btn-primary">登录</button>
       </form>
 
