@@ -39,8 +39,12 @@ class UsersController extends Controller
     {
     	//$user=compact('user');
     	//$one=1;
-        return view('users.show',compact('user'));
+    	$statuses = $user->statuses()
+    					 ->orderBy('created_at', 'desc')
+    					 ->paginate(30);
+        return view('users.show',compact('user','statuses'));
     }
+    
     public function store(Request $request){
     	$this->validate($request,[
     		 'name' => 'required|max:50',
