@@ -18,9 +18,9 @@
     </div>
   @else
     <div class="jumbotron">
-      <h1>Hello Laravel</h1>
+      <h1>PEOTOPEO</h1>
       <p class="lead">
-        你现在所看到的是 <a href="https://laravel-china.org/laravel-tutorial/5.1">Laravel 入门教程</a> 的项目主页。
+        <a href="{{route('home')}}">欢迎来到peotopeo</a> 
       </p>
       <p>
         一切，将从这里开始。
